@@ -33,8 +33,8 @@ Reproduction and evaluation of the SATORI-R1 multimodal reasoning model on bench
 ## 🎯 Summary
 
 Successfully reproduced SATORI-R1 results on 2 out of 7 benchmarks from the original paper:
-- ✅ **MMStar**: 55.8% vs 55.9% (paper) - General visual reasoning across 6 categories
-- ✅ **OCRBench**: 764 vs ~765 (paper) - OCR and text understanding capabilities
+- **MMStar**: 55.8% vs 55.9% (paper) - General visual reasoning across 6 categories
+- **OCRBench**: 764 vs ~765 (paper) - OCR and text understanding capabilities
 
 Both results show excellent agreement with published findings, validating the model's performance.
 
