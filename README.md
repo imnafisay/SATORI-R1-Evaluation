@@ -2,7 +2,7 @@
 
 Reproduction and evaluation of the SATORI-R1 multimodal reasoning model on benchmark datasets.
 
-## 📊 Results
+## Results
 
 ### MMStar Benchmark
 
@@ -30,7 +30,7 @@ Reproduction and evaluation of the SATORI-R1 multimodal reasoning model on bench
 - Key Information Extraction: 161
 - Handwritten Math Expression Recognition: 39
 
-## 🎯 Summary
+##  Summary
 
 Successfully reproduced SATORI-R1 results on 2 out of 7 benchmarks from the original paper:
 - **MMStar**: 55.8% vs 55.9% (paper) - General visual reasoning across 6 categories
@@ -38,7 +38,7 @@ Successfully reproduced SATORI-R1 results on 2 out of 7 benchmarks from the orig
 
 Both results show excellent agreement with published findings, validating the model's performance.
 
-## 🔧 Experimental Setup
+## Experimental Setup
 
 ### Model
 **SATORI-3B** - A multimodal reasoning model based on Qwen2.5-VL-3B-Instruct, trained with spatially anchored reinforcement learning for enhanced visual question answering.
@@ -113,7 +113,7 @@ SATORI-R1-Evaluation/
 
 ## 📓 Notebooks
 
-- **[Evaluation Notebook](./notebooks/Satori_R1.ipynb)** - Complete evaluation pipeline with setup and results
+- **[Evaluation Notebook](./Satori_R1.ipynb)** - Complete evaluation pipeline with setup and results
 
 ## 🔗 Links
 
@@ -122,7 +122,7 @@ SATORI-R1-Evaluation/
 - **VLMEvalKit Framework:** [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
 - **Model on Hugging Face:** [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct)
 
-## 📝 Citation
+##  Citation
 
 If you use this evaluation or find it helpful, please cite the original paper:
 ```bibtex
@@ -134,12 +134,12 @@ If you use this evaluation or find it helpful, please cite the original paper:
 }
 ```
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Thanks to the SATORI-R1 team for their excellent paper and open-source implementation
 - VLMEvalKit framework for standardized evaluation tools
 - Google Colab for providing compute resources
 
-## 📧 Contact
+##  Contact
 
 For questions or issues, please open an issue in this repository.
